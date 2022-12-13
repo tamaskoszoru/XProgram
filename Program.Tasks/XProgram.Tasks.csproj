@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>XProgram.Tasks</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Program.Engine\XProgram.Engine.csproj" />
+    <ProjectReference Include="..\Program.Expressions\XProgram.Expressions.csproj" />
+  </ItemGroup>
+
+</Project>
